@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Onest", sans-serif;
+list-style-type: none;
+}
+body{
+    background-color: #f2f5f9;
+    font-family: "Onest", sans-serif;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   background-color: #fff;
+  
+   padding: 0 5%;
+   padding-block: 20px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+ul a{
+    color: #000;
+}
+
+#home{
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;   
+}
+#home h2{
+    font-size: 45px;
+    color: #fff;
+}
+
+#home p{
+    color: #fff;
+    margin-block: 30px;
+}
+#home button{
+    padding: 15px 35px;
+    background-color: #ab1414;
+    border: none;
+}
+
+#home button a{
+    color: #fff;
+}
+
+#menu{
+    padding: 0 5%;
+    
+    margin-top: 50px;
+}
+
+.menu_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.menu_grid img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu_box{
+    text-align: left;
+    background-color: #fff;
+}
+
+.menu_info{
+    padding: 0 5%;
+    padding-block: 15px;
+}
+
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.contact_box{
+    padding: 0 5%;
+    padding-block: 50px;
+    background-color: #ab1414;
+    color: #fff;
+    text-align: center;
+}
+
+.contact_box h3{
+
+}
+
+#contact{
+    padding: 0 5%;
+    margin-top: 50px;
+}
+#about{
+    padding: 0 5%;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-block: 50px;
+    text-align: center;
+}
+#about p{
+    margin-top: 20px;
+}
+
+#abouts{
+    padding: 0 5%;
+
+    padding-block: 50px;
+    text-align: center;
+}
+
+#abouts p{
+    margin-top: 20px;
+}
+
+footer{
+    padding-block: 50px;
+    margin-top: 50px;
+    background-color: #ab1414;
+    color: #fff;
+    text-align: center;
+}
+
+.hero{
+    height: 300px;
+    background-color: #ab1414;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 30px;
+    
+}
